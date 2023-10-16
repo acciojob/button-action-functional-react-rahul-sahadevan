@@ -1,10 +1,11 @@
 import React, {Component, useState} from "react";
+import Button from "./Button";
 import "./../styles/App.css";
 
 function App() {
   return (
     <div id="main">
-      // Do not alter the main div
+      <Button/>
     </div>
   );
 }
